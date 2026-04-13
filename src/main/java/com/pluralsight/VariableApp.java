@@ -36,7 +36,6 @@ public class VariableApp {
         String niceSaying = "Treat others how you would like to be treated";
         System.out.println("The saying I keep near and dear to my heart is; " + niceSaying + ".");
 
-
         /**
          *  I want to include newlines between each step
          *  I want to find external sources
