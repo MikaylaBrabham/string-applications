@@ -1,4 +1,64 @@
+/**
+ * @Author Mikayla Brabham
+ * Exercises - Operators
+ * Workbook 1c page 69 -70
+ */
 package com.pluralsight;
 
 public class VariableApp {
+    public static void main(String[] args) {
+
+
+        // Step One instructions
+
+        // Question 1: Declare variable for favorite color and display
+        String favoriteColor = "Pink";
+        System.out.println("My favorite color is " + favoriteColor + ".");
+
+        // Question 2: Declare a variable for class start year
+        int classYear = 2026;
+        System.out.println("I started this class in " + classYear + ".");
+
+        // Question 3: Declare a variable to store your middle intital
+         char middleInitial = 'D';
+        System.out.println("The initial of my most used middle name is " + middleInitial + ".");
+
+        // Question 4: Declare a variable to store if you have pets (yes/no)
+        // boolean variable
+        // print using sout
+
+        // Question 5: Declare a variable with a nice saying
+        // string variable
+        //print using sout
+
+        /**
+         *  I want to include newlines between each step
+         *  I want to find external sources
+         *  to make this more efficient w/o using sout
+         *  I want to use headlines for the different steps
+         *  should different steps be in different loops? so different method
+         */
+
+
+        // Step 2
+
+        // Question 1: Declare and print The number of days in the week in one line
+        //Print int VariableName  = # days in a week, There are variable name days in a week
+
+        // Question 2: The price of coffee
+        // print string variableName = $4.99, The price of coffee is variable name
+
+        // Question 3: Your favorite letter
+        // print char variableName = M, My favorite letter is variable name
+
+        // Question 4: Whether it's raining (true/false)
+        // print boolean variable = false, It is variable name
+
+
+
+
+
+
+
+    }
 }
