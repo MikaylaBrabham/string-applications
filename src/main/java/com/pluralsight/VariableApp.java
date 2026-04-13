@@ -24,12 +24,18 @@ public class VariableApp {
         System.out.println("The initial of my most used middle name is " + middleInitial + ".");
 
         // Question 4: Declare a variable to store if you have pets (yes/no)
-        // boolean variable
-        // print using sout
+        boolean myPets = false;
+        if (myPets) {
+            System.out.println("No, I have no pets!");
+        }
+        else {
+            System.out.println("Yes, I have a pet! Let me tell you all about them!");
+        }
 
         // Question 5: Declare a variable with a nice saying
-        // string variable
-        //print using sout
+        String niceSaying = "Treat others how you would like to be treated";
+        System.out.println("The saying I keep near and dear to my heart is; " + niceSaying + ".");
+
 
         /**
          *  I want to include newlines between each step
