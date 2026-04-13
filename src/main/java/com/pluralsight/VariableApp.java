@@ -5,6 +5,8 @@
  */
 package com.pluralsight;
 
+import javax.swing.*;
+
 public class VariableApp {
     public static void main(String[] args) {
 
@@ -20,15 +22,14 @@ public class VariableApp {
         System.out.println("I started this class in " + classYear + ".");
 
         // Question 3: Declare a variable to store your middle intital
-         char middleInitial = 'D';
+        char middleInitial = 'D';
         System.out.println("The initial of my most used middle name is " + middleInitial + ".");
 
         // Question 4: Declare a variable to store if you have pets (yes/no)
         boolean myPets = false;
         if (myPets) {
             System.out.println("No, I have no pets!");
-        }
-        else {
+        } else {
             System.out.println("Yes, I have a pet! Let me tell you all about them!");
         }
 
@@ -48,22 +49,18 @@ public class VariableApp {
         // Step 2
 
         // Question 1: Declare and print The number of days in the week in one line
-        //Print int VariableName  = # days in a week, There are variable name days in a week
+        int amountDays = 7; System.out.println("There are " + amountDays + " days in a week.");
 
         // Question 2: The price of coffee
-        // print string variableName = $4.99, The price of coffee is variable name
+        String coffeePrice = "$4.99"; System.out.println("The price of coffee is " + coffeePrice + ", which is kind of expensive.");
 
         // Question 3: Your favorite letter
-        // print char variableName = M, My favorite letter is variable name
+        char favoriteLetter = 'M';System.out.println("My favorite letter is '" + favoriteLetter + "' due to it relating to my name.");
+
 
         // Question 4: Whether it's raining (true/false)
-        // print boolean variable = false, It is variable name
-
-
-
-
-
-
+        boolean itsRaining = false;System.out.println(itsRaining + ", it's not raining!");
 
     }
+
 }
