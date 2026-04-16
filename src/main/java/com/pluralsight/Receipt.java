@@ -1,5 +1,6 @@
 package com.pluralsight;
 // import scanner to get the user input
+import java.text.DecimalFormat;
 import java.util.*;
 
 public class Receipt {
@@ -15,26 +16,27 @@ public class Receipt {
 
         // Create double variable for item price
         System.out.print("How much is the item your purchasing? ");
-        float itemPrice = scanner.nextFloat();
+        double itemPrice = scanner.nextDouble();
         scanner.nextLine();
 
      //  Question 2.
-        // Create a int variable for quantity
+        // Create int variable for quantity
         System.out.print("How many items do you have? ");
         int quantity = scanner.nextInt();
         scanner.nextLine();
 
-
      // Question 3.
         // Do operator expression to get price,
-       float totalMath = quantity * itemPrice;
+        double totalCost = quantity * itemPrice;
+        DecimalFormat df = new DecimalFormat("0.00");
 
-        // Create price variable to print
 
-        //String
-        // Create expression statement with variable names to display
-      //  System.out.printf("The total of" + itemName + "is + %f",);
-      //  String totalPrice = "" + itemName + "is $" + totalPrice;
+        // Create output to display results
+        System.out.printf("You bought " + quantity + " "+ itemName + " for $" + (df.format(totalCost)));
+
+        //citations
+            // W3 schools
+
 
     }
 }
